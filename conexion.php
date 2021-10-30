@@ -1,6 +1,6 @@
 <?php
 	
-	$mysqli = new mysqli('localhost', 'root', 'ico', 'Alumno');
+	$mysqli = new mysqli('localhost', 'root', 'ico', 'NS');
 	
 	if($mysqli->connect_error){
 		
