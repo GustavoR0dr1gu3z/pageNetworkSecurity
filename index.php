@@ -30,20 +30,19 @@
 			<div class="row">
 				<h2 style="text-align:center">Pagina LOGIN, Seguridad en Redes</h2>
 			</div>
-			
+					
 			<div class="rowMio">
-				<a href="nuevo.php" class="btnMio">Sign In</a>
-				<a href="signup.php" class="btnUp">Sign Up</a>
+				<a href="nuevo.php" class="btn btnMio">Sign In</a>
+				
 			<!--
 				<form action="<?php $_SERVER['PHP_SELF']; ?>" method="POST">
 					<b>Nombre: </b><input type="text" id="campo" name="campo" />
 					<input type="submit" id="enviar" name="enviar" value="Buscar" class="btn btn-info" />
 				</form>
 			-->
+
+				<a href="signup.php" class="btn btnUp">Sign Up</a>		
 			</div>
-			
-			<br>
-			
 			<!--
 			<div class="row table-responsive">
 				<table class="table table-striped">

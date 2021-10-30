@@ -1,8 +1,8 @@
 .rowMio{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
+    padding-top: 100px;
 }
 
 
@@ -13,7 +13,7 @@
     border-radius: 5px;
     padding: 10px;    
     /*margin: 200px 250px 200px 250px;*/
-    margin: 20% 40% 20% 40%;
+    margin: 1% 40% 1% 40%;
   }
 
 .btnUp{
