@@ -56,3 +56,17 @@ label{
     color: white;
     padding-bottom: 10px;
 }
+
+.rowMio3{
+    background-color: black;
+    margin: 18% 25% 20% 25%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    border-radius: 30px;
+}
+
+.h3Mio2{
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+}
