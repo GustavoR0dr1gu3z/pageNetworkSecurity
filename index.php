@@ -19,6 +19,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/bootstrap-theme.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/styles.css">
 		<script src="js/jquery-3.1.1.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>	
 	</head>
@@ -31,16 +32,19 @@
 			</div>
 			
 			<div class="row">
-				<a href="nuevo.php" class="btn btn-primary">Nuevo Registro</a>
-				
+				<a href="nuevo.php" class="btnMio">Login</a>
+			
+			<!--
 				<form action="<?php $_SERVER['PHP_SELF']; ?>" method="POST">
 					<b>Nombre: </b><input type="text" id="campo" name="campo" />
 					<input type="submit" id="enviar" name="enviar" value="Buscar" class="btn btn-info" />
 				</form>
+			-->
 			</div>
 			
 			<br>
 			
+			<!--
 			<div class="row table-responsive">
 				<table class="table table-striped">
 					<thead>
@@ -69,8 +73,8 @@
 				</table>
 			</div>
 		</div>
-		
-		<!-- Modal -->
+		-->
+		<!-- Modal
 		<div class="modal fade" id="confirm-delete" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 			<div class="modal-dialog">
 				<div class="modal-content">
@@ -91,7 +95,7 @@
 				</div>
 			</div>
 		</div>
-		
+		-->
 		<script>
 			$('#confirm-delete').on('show.bs.modal', function(e) {
 				$(this).find('.btn-ok').attr('href', $(e.relatedTarget).data('href'));
