@@ -31,9 +31,9 @@
 				<h2 style="text-align:center">Pagina LOGIN, Seguridad en Redes</h2>
 			</div>
 			
-			<div class="row">
-				<a href="nuevo.php" class="btnMio">Login</a>
-			
+			<div class="rowMio">
+				<a href="nuevo.php" class="btnMio">Sign In</a>
+				<a href="signup.php" class="btnUp">Sign Up</a>
 			<!--
 				<form action="<?php $_SERVER['PHP_SELF']; ?>" method="POST">
 					<b>Nombre: </b><input type="text" id="campo" name="campo" />
