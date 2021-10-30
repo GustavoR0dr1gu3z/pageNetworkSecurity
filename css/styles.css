@@ -17,6 +17,10 @@ body{
     padding: 10px;
 }
 
+.h2Mio{
+    color: white;
+    text-align: center;
+}
 
 .btnMio, .btnUp{
     
@@ -33,4 +37,21 @@ body{
 .btnUp{
     background-color: rgb(101, 59, 197);
   }
+
+.rowMio2{
+    background-color: black;
+    border-radius: 30px;
+    margin: 15% 20% 20% 20%;
+    padding: 20px 30px 10px 10px;
+}
+
+.h3Mio{
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+label{
+    color: white;
+    padding-bottom: 10px;
 }

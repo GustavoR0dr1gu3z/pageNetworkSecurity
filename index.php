@@ -27,89 +27,20 @@
 	<body>
 		
 		<div class="container">
-			<div class="row">
-				<h2 style="text-align:center">Pagina LOGIN, Seguridad en Redes</h2>
-			</div>
+
 					
 			<div class="rowMio">
-				<a href="nuevo.php" class="btn btnMio">Sign In</a>
-				
-			<!--
-				<form action="<?php $_SERVER['PHP_SELF']; ?>" method="POST">
-					<b>Nombre: </b><input type="text" id="campo" name="campo" />
-					<input type="submit" id="enviar" name="enviar" value="Buscar" class="btn btn-info" />
-				</form>
-			-->
-
-				<a href="signup.php" class="btn btnUp">Sign Up</a>		
-			</div>
-			<!--
-			<div class="row table-responsive">
-				<table class="table table-striped">
-					<thead>
-						<tr>
-							<th>ID</th>
-							<th>Nombre</th>
-							<th>Email</th>
-							<th>Telefono</th>
-							<th></th>
-							<th></th>
-						</tr>
-					</thead>
-					
-					<tbody>
-						<?php while($row = $resultado->fetch_array(MYSQLI_ASSOC)) { ?>
-							<tr>
-								<td><?php echo $row['id']; ?></td>
-								<td><?php echo $row['nombre']; ?></td>
-								<td><?php echo $row['correo']; ?></td>
-								<td><?php echo $row['telefono']; ?></td>
-								<td><a href="modificar.php?id=<?php echo $row['id']; ?>"><span class="glyphicon glyphicon-pencil"></span></a></td>
-								<td><a href="#" data-href="eliminar.php?id=<?php echo $row['id']; ?>" data-toggle="modal" data-target="#confirm-delete"><span class="glyphicon glyphicon-trash"></span></a></td>
-							</tr>
-						<?php } ?>
-					</tbody>
-				</table>
-			</div>
-		</div>
-		-->
-		<!-- Modal
-		<div class="modal fade" id="confirm-delete" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-			<div class="modal-dialog">
-				<div class="modal-content">
-					
-					<div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-						<h4 class="modal-title" id="myModalLabel">Eliminar Registro</h4>
-					</div>
-					
-					<div class="modal-body">
-						¿Desea eliminar este registro?
-					</div>
-					
-					<div class="modal-footer">
-						<button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
-						<a class="btn btn-danger btn-ok">Delete</a>
-					</div>
+				<div class="row">
+					<h2 class="h2Mio"style="text-align:center">Seguridad en Redes</h2>							
 				</div>
-			</div>
-		</div>
-		-->
 
-		<form class="login-form">
-			<p class="login-text">
-				<span class="fa-stack fa-lg">
-					<i class="fa fa-circle fa-stack-2x"></i>
-					<i class="fa fa-lock fa-stack-1x"></i>
-				</span>
-			</p>
-			<input type="email" class="login-username" autofocus="true" required="true" placeholder="Email" />
-			<input type="password" class="login-password" required="true" placeholder="Password" />
-			<input type="submit" name="Login" value="Login" class="login-submit" />
-		</form>
-		<a href="#" class="login-forgot-pass">forgot password?</a>
-		<div class="underlay-photo"></div>
-		<div class="underlay-black"></div> 
+			
+				<a href="#" class="btn btnMio">Sign In</a>				
+				<a href="nuevo.php" class="btn btnUp">Sign Up</a>		
+		</div>
+
+
+
 
 		<script>
 			$('#confirm-delete').on('show.bs.modal', function(e) {
