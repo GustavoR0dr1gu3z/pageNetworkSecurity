@@ -27,7 +27,7 @@
 		
 		<div class="container">
 			<div class="row">
-				<h2 style="text-align:center">Conexión de PHP y MySQL</h2>
+				<h2 style="text-align:center">Pagina LOGIN, Seguridad en Redes</h2>
 			</div>
 			
 			<div class="row">
